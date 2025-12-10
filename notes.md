@@ -1,25 +1,33 @@
-# 2025-12-07 Week 0, Day 1: Blockchain Foundations
-**Topic:** Blockchain Theory and Immutebility.
+## [2025-12-07] Week 0, Day 1: Blockchain Foundations
+**Topic:** Theory and Immutability.
+**Key Concepts:**
+- **Hash:** A unique digital fingerprint. Changing data changes the hash completely.
+- **Decentralization:** No central server. The network agrees on truth (Consensus).
+- **Immutability:** Block 51 holds the hash of block 50. History cannot be rewritten.
 
-**Concepts Learned:**
-- **Hash:** A unique digital fingerprint for data. Changing the data changes the has completely.
-- **Descentralization:** No central server of bank. The network agrees on the truth (Consensus).
-- **Immutability:** Block 51 stores the hash of Block 50. Changing the past breaks the chain link.
+## [2025-12-08] Week 0, Day 2: History & Benefits
+**Topic:** Bitcoin, Etherium, and Core Values.
+**Key Concepts:**
+- **Bitcoin vs Etherium:** Calculator (Gold) vs Computer (Smart Contracts).
+- **Double-Spend:** Solved by Bitcoin. You cannot copy-paste money.
+- **Byzantine Generals:** Agreeing on truth without a leader.
+- **permissionless:** You own your assets. No bank needed.
 
-#2025-12-08 Week 0, Day 2: History & Benefits
+## [2025-12-09] Week 0, Day 3: Use Cases
+**Topic:** Real World Applications.
+**Key Concepts:**
+- **DeFi:** Stablecoins (USDC) fight inflation.
+- **Smart Contracts:** Automated agreements (e.g., Insurance payouts).
+- **NFTs:** Verifiable digital ownership (Art, Gaming).
+- **DAO:** Decentralized governance.
+- **Web3:** Read-Write-Own.
 
-**Concepts:**
-- **Bitcoin vs Etherium:** Bitcoin is a Calculator (Digital Gold). Etherium is a Computer (Smart Contracts).
-- **Double-Spend Problem:** Solved by Bitcoin. You cannot spend the same digital dollar twice.
-- **Byzantine General Problem:** How to agree on truth without a leader.
-- **Permissionless:** No Bank needed. You own your assets.
-- **Credible Neutrality:** The code treats everyone equally, like gravity.
-
-#2025-12-09 Use Cases
-**Key Takeaways:**
-- **DeFi:** Provides Stablecoins (e.g., USDC) to fight inflation.
-- **Smart Contracts:** Automated, self-executing agreements (e.g., insurance).
-- **Ownership (NFTs):** True digital ownership of assets like art or gaming items.
-- **DAO:** Decentralized organizations for community governance.
-- **Web3:** The "Read-Write-Own" internet.
+## [2025-12-10] Week 0, Day 4: Architecture & Oracles
+**Tipic:** L1/L2, Scalability, and Oracles.
+**Key Concepts:**
+- **L1 vs L2:** L1 is the highway (Ethereum). L2 is the express lane (Arbitrum/Optimism).
+- **Testnets:** Simulation environments with fake money (Sepolia).
+- **Chain ID:** Unique ID to prevent sending real money to a testnet.
+- **Oracle Problem:** Blockchains are isolated. They cannot call APIs directly.
+- **Chainlink:** A Decentralized Oracle Network that safely bridges real-world data (prices, weather) to the blockchain.
 
