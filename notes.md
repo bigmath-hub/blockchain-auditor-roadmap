@@ -31,3 +31,11 @@
 - **Oracle Problem:** Blockchains are isolated. They cannot call APIs directly.
 - **Chainlink:** A Decentralized Oracle Network that safely bridges real-world data (prices, weather) to the blockchain.
 
+## [2025-12-11] Week 0, Day 5: Architecture Analysis & Trust Models
+**Topic:** Case Study (Kicksy) and The Purpose of Smart Contracts.
+**Key Concepts:**
+- **Hot Wallet Risk:** Storing private keys on a server (API) creates a single point of failure.
+- **Web2 vs Web3 Sync:** Databases and Blockchains often disagree. The Blockchain is the source of truth.
+- **Royalty Enforcement:** Standard ERC-721 transfers bypass marketplace fees. Code cannot force off-chain good behavior.
+- **Trust Models:** Moving from Brand-Based Trust (Banks/People) to Math-Based Trust (Code/Cryptography).
+- **Immutability:** "Code is Law". No back-room deals.
