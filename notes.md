@@ -39,3 +39,14 @@
 - **Royalty Enforcement:** Standard ERC-721 transfers bypass marketplace fees. Code cannot force off-chain good behavior.
 - **Trust Models:** Moving from Brand-Based Trust (Banks/People) to Math-Based Trust (Code/Cryptography).
 - **Immutability:** "Code is Law". No back-room deals.
+
+## [2025-12-12] Week 0, Day 6: EVM Mechanics
+**Topic:** The Ethereum Virtual Machine.
+**Key Concepts:**
+- **EVM:** The "Operating System" or "Robotic Chef" that runs smart contracts.
+- **Determinism:** 1,000 nodes must reach the exact same result.
+- **Equivalence vs Compatibility:**
+	- *Equivalent (Optimism):* Identical physics to Ethereum.
+	- *Compatible (zkSync):* Similar, but engine parts differ.
+- **Auditor Note:** Code safe on Ethereum fail on other chains due to opcode differences.
+
