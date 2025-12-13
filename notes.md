@@ -50,3 +50,18 @@
 	- *Compatible (zkSync):* Similar, but engine parts differ.
 - **Auditor Note:** Code safe on Ethereum fail on other chains due to opcode differences.
 
+## [2025-12-13] Week 0: Weekly Retrospective & Quiz Patches
+**Status:** Theory Phase Completed.
+**Quiz Score:** 78% (Pass).
+
+*Critical Patches (Mistakes Fixed):**
+1. **Hybrid Smart Contracts:**
+- *Mistake:* Confused with "Oracle Verified".
+- *Correction:* A "Hybrid" contract combines On-Chain Code (Logic) + Off-Chain Data (Oracles/Chainlink). It bridges the two worlds.
+
+2. **EVM Equivalence vs. Compatibility:**
+- **Mistake:** Swapped the definitions.
+- *Correction:*
+	- **Equivalent (e.g. Optimism):** Exact mathematical clone. Code works exactly the same as Ethereum.
+	- **Compatible (e.g. zkSync):** Similar language, different engine. Code might need changes.
+
