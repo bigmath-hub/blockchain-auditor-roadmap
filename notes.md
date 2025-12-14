@@ -65,3 +65,12 @@
 	- **Equivalent (e.g. Optimism):** Exact mathematical clone. Code works exactly the same as Ethereum.
 	- **Compatible (e.g. zkSync):** Similar language, different engine. Code might need changes.
 
+## [2025-12-14] Section 2: Wallets & Key Management
+**Topic:** Wallet Architecture and Security.
+**Key Concepts:**
+- **Wallet Function:** It's not a storage device; it's a remote control (Private Key) for funds on the ledger.
+- **Hot Wallet (Metamask):** Connected to the internet. Fast for Dev/Coding. Hight Risk.
+- **Cold Wallet (Ledger):** Offline storage. Essential for large funds. Low Risk.
+- **Auditor Rule:** "Not yourk keys, not your crypto."
+- **Setup:** Created a "Dev Burner" wallet for the course (Empty of real funds).
+
