@@ -74,3 +74,14 @@
 - **Auditor Rule:** "Not yourk keys, not your crypto."
 - **Setup:** Created a "Dev Burner" wallet for the course (Empty of real funds).
 
+## [2025-12-15] Section 2: First Transactions
+
+**Topic:** Wallets, Networks, and Gas.
+**Key Concepts:**
+- **OpSec:** Created "devBurner" account. Separated Dev vs. Personal funds.
+- **Networks:**
+	- *Tenderly:* Virtual/Private chain for fast simulation.
+	- *Sepolia:* Public Testnet with real validators (Pos).
+- **Gas Fees:** The cost to overcome entropy. Paid to Validators (Proof of Stake).
+- **Consensus:** Validators stake 32 ETH as collateral to process blocks honestly.
+
