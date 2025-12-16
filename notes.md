@@ -85,3 +85,10 @@
 - **Gas Fees:** The cost to overcome entropy. Paid to Validators (Proof of Stake).
 - **Consensus:** Validators stake 32 ETH as collateral to process blocks honestly.
 
+## [2025-12-16] Week 1, Day 2: Testnet Infrastructure
+**Topic:** Public vs Virtual Environments.
+**Key Takeaway:**
+- **Sepolia (Public):** Hard to get funds, good for realistic "Chaos" testing.
+- **Tenderly (Virtual):** Instant funds, perfect for logic testing in a "Vacuum".
+- **Status:** Low Energy Day. Rest is required for neuroplasticity.
+
