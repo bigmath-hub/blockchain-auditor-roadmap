@@ -92,3 +92,12 @@
 - **Tenderly (Virtual):** Instant funds, perfect for logic testing in a "Vacuum".
 - **Status:** Low Energy Day. Rest is required for neuroplasticity.
 
+## [2025-12-18] Week 1, Day 3 (Part 2): Gas Physics
+**Topic:** Gas, Gas Price, and Limits
+**Key Concepts:**
+- **Gas:** The amount of work (Constant). Transfer = 21,000
+- **Gas Price:** The bid per unit of work (Variable/Gwwei).
+- **The Formula:** Fee = Gas Used x Gas Price.
+- **Gas Limit:** The safety cap. Unused gas is refunded
+- **Wei:** The fundamental particle. 1 ETH = 10^18 Wei.
+
