@@ -101,3 +101,10 @@
 - **Gas Limit:** The safety cap. Unused gas is refunded
 - **Wei:** The fundamental particle. 1 ETH = 10^18 Wei.
 
+## [2025-12-26] Week 1, Day 4: Section 2 Review
+**Topic:** Wallets, Transactions, and Gas Quiz.
+**Status:** Passed Quiz (7/8).
+**Correction:**
+	- **Gas Payment:** Fees are paid in **ETH** (The Currency). **Gwei** is just a demonination (10^-9) ETH, not the currency itself.
+	- **Smart Contracts:** They live at an address, just like a wallet. We interact by sending transactions to that address.
+
