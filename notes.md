@@ -108,3 +108,13 @@
 	- **Gas Payment:** Fees are paid in **ETH** (The Currency). **Gwei** is just a demonination (10^-9) ETH, not the currency itself.
 	- **Smart Contracts:** They live at an address, just like a wallet. We interact by sending transactions to that address.
 
+## [2025-12-27] Week 1, Day5: Consensus Fundamentals
+**Topic:** Sybil Resistence & Finality.
+**Key Concepts:**
+- **The Problem:** How to agree on tuth without a leader?
+- **Sybil Attack:** Creating fake identities to rig the vote.
+	- **PoW:** Expensive Hardware + Electricity (Bitcoin).
+	- **PoS:** Expensive Collateral/Stake (Ethereum).
+- **Finality:** The moment a transaction becomes mathematically irreversible.
+- **Auditor Note:** "1 Block Confirmation" is not Finality. Wait for the protocol guarantee.
+
