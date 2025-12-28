@@ -118,3 +118,12 @@
 - **Finality:** The moment a transaction becomes mathematically irreversible.
 - **Auditor Note:** "1 Block Confirmation" is not Finality. Wait for the protocol guarantee.
 
+## [2025-12-28] Week 1, Day 6: Proof of Work Architecture
+**Topic:** Mining, Hashing, and 51% Attacks.
+**Key Concepts:**
+- **SHA-256:** The hash algorithm. Deterministic and one-way.
+- **The Nonce:** The variable miners change to solve the puzzle (Find a hash with leading zeros).
+- **Longest Chain Rule:** The network always follows the chain with the most work.
+- **51% Attack:** If you control >50% of hash power, you can rewrite recent history.
+- **Double Spend:** Spending money, getting the product, then erasing the transaction via a Reorg.
+ 
