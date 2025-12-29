@@ -127,3 +127,12 @@
 - **51% Attack:** If you control >50% of hash power, you can rewrite recent history.
 - **Double Spend:** Spending money, getting the product, then erasing the transaction via a Reorg.
  
+## [2025-12-28] Week 2, Day 1: Cryptography & Signatures
+**Topic:** Digital Signatures (ECDSA)
+**Key Concepts:**
+- **The Keys:**
+	- *Private Key:* Creates the signature (The Stamp). NEVER share.
+	- *Public Key:* Verifies the signature (The Mailbox). Safe to share.
+- **The Signature:** Proves **Authencity** (It's you) and **Inegrity** (Message wasn't changed).
+- **The Mechanism:** `Function(PrivateKey, Message) -> Signature`. The DApp never sees your Private Key.
+- **Auditor Risk:** **"Blind Signing"**. Phishing sites trick users into signing "Permit" messages. Always read what you sign.
