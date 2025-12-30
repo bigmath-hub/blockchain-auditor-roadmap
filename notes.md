@@ -127,7 +127,7 @@
 - **51% Attack:** If you control >50% of hash power, you can rewrite recent history.
 - **Double Spend:** Spending money, getting the product, then erasing the transaction via a Reorg.
  
-## [2025-12-28] Week 2, Day 1: Cryptography & Signatures
+## [2025-12-29] Week 2, Day 1: Cryptography & Signatures
 **Topic:** Digital Signatures (ECDSA)
 **Key Concepts:**
 - **The Keys:**
@@ -136,3 +136,13 @@
 - **The Signature:** Proves **Authencity** (It's you) and **Inegrity** (Message wasn't changed).
 - **The Mechanism:** `Function(PrivateKey, Message) -> Signature`. The DApp never sees your Private Key.
 - **Auditor Risk:** **"Blind Signing"**. Phishing sites trick users into signing "Permit" messages. Always read what you sign.
+
+## [2025-12-30] Week 2, Day 2: Proof of Stake Architecture
+**Topic:** Validators, Slashing, and Finality.
+**Key Concepts:**
+- **Validators:** Replace Miners. They lock (stake) 32 ETH to participate.
+- **Attestation:** The voting process. Validators vote on the validity of blocks proposed by others.
+- **Finality Threshold:** Requires 66% (2/3) of the network to agree.
+- **Slashing:** The economic penalty for cheating. Malicious validators lose their staked ETH.
+- **Security Model:** PoS relies on "Potencial Energy" (Financial Risk) rather then "Kinetic Energy" (Electricity).
+
