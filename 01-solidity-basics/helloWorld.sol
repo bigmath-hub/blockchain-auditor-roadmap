@@ -6,7 +6,7 @@ contract HelloWorld {
     string public texto = "Hello Blockchain";
 
     // Uma funcao para mudar o texto
-    fuction mudarTexto(string memory novoTexto) public {
+    function mudarTexto(string memory novoTexto) public {
         texto = novoTexto;
     }
 }
