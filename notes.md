@@ -155,4 +155,10 @@
 	- *Probabilistic (Bitcoin):* The deeper the block, the safer it is (Wet Cement drying).
 	- *Deterministic (Ethereum):* A hard checkpoint signed by 66% of validators (Turning Cement into Stone).
 - **MEV:** Bots watching the Mempool to front-run your trades.
+**Topic:** Protocol Upgrades and Chain Splits.
+**Key Concepts:**
+- **Hard Fork:** A non-backward compatible update. Nodes must update software to follow the new chain.
+- **EIP:** Ethereum Improvement Proposal. The document where upgrades are defined.
+- **The DAO Hack:** The event that split Ethereum (ETH) and Ethereum Classic (ETC).
+- **Social Consensus:** The ultimate defense. If the code fails catastrophically, the humans can decide to Fork (Undo) the damage.
 
