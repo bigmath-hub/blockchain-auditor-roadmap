@@ -146,3 +146,13 @@
 - **Slashing:** The economic penalty for cheating. Malicious validators lose their staked ETH.
 - **Security Model:** PoS relies on "Potencial Energy" (Financial Risk) rather then "Kinetic Energy" (Electricity).
 
+## [2026-01-02] Week 3, Day 3: Vulnerabilities & Finality
+**Topic:** Attacks and Concensus Safety.
+**Key Concepts:**
+- **Replay Attack:** Using a signed Tx an a differente chain. Prevented by **Chain ID**.
+- **Nonce Replacement:** You can "Speed Up" a Tx by sending a new one with the *Same Nonce* but *Higher Gas*. The old one is dropped because the Nonce was used.
+- **Finality:**
+	- *Probabilistic (Bitcoin):* The deeper the block, the safer it is (Wet Cement drying).
+	- *Deterministic (Ethereum):* A hard checkpoint signed by 66% of validators (Turning Cement into Stone).
+- **MEV:** Bots watching the Mempool to front-run your trades.
+
