@@ -155,7 +155,7 @@
 	- *Probabilistic (Bitcoin):* The deeper the block, the safer it is (Wet Cement drying).
 	- *Deterministic (Ethereum):* A hard checkpoint signed by 66% of validators (Turning Cement into Stone).
 - **MEV:** Bots watching the Mempool to front-run your trades.
-
+## Part 2: Protocol & Chain Splits
 **Topic:** Protocol Upgrades and Chain Splits.
 **Key Concepts:**
 - **Hard Fork:** A non-backward compatible update. Nodes must update software to follow the new chain.
@@ -171,6 +171,14 @@
 - **ERC-20:** The standard for Fungible Tokens.
 - **Interface:** If you change function names (e.g, `transfer` -> `giveMoney`) you break composability (MetaMask/Uniswap will not work).
 - **Validity:** You can deploy non-standard code, but it will be isolated from the ecosystem.
+## Part 2: Gas Economics
+**Topic:** EIP-1559 and Gas Math
+**Key Concepts:**
+- **The Work vs. the Cost:** Gas Used (21,000) is constant. Gas Price (Gwei0 varies.
+- **EIP-1559:** Introduced Base Fee (Burned) + Priority Fee (Validator Tip).
+- **The Math:** `Total Fee = Gas Used * (Gas Fee + Tip)`.
+- **Units:** `1 Gwei = 10^-9 ETH`.
+- **Refund Logic:** If you set a high `Max Fee Cap`, the unused budget (`Max - Actual`) is returned to the wallet.
 
 
 
