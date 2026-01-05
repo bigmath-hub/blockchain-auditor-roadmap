@@ -146,7 +146,7 @@
 - **Slashing:** The economic penalty for cheating. Malicious validators lose their staked ETH.
 - **Security Model:** PoS relies on "Potencial Energy" (Financial Risk) rather then "Kinetic Energy" (Electricity).
 
-## [2026-01-02] Week 3, Day 3: Vulnerabilities & Finality
+## [2026-01-02] Week 2, Day 3: Vulnerabilities & Finality
 **Topic:** Attacks and Concensus Safety.
 **Key Concepts:**
 - **Replay Attack:** Using a signed Tx an a differente chain. Prevented by **Chain ID**.
@@ -155,10 +155,22 @@
 	- *Probabilistic (Bitcoin):* The deeper the block, the safer it is (Wet Cement drying).
 	- *Deterministic (Ethereum):* A hard checkpoint signed by 66% of validators (Turning Cement into Stone).
 - **MEV:** Bots watching the Mempool to front-run your trades.
+
 **Topic:** Protocol Upgrades and Chain Splits.
 **Key Concepts:**
 - **Hard Fork:** A non-backward compatible update. Nodes must update software to follow the new chain.
 - **EIP:** Ethereum Improvement Proposal. The document where upgrades are defined.
 - **The DAO Hack:** The event that split Ethereum (ETH) and Ethereum Classic (ETC).
 - **Social Consensus:** The ultimate defense. If the code fails catastrophically, the humans can decide to Fork (Undo) the damage.
+
+## [2026-01-05] Week 3, Day 1: EIP vs ERC Standards
+**Topic:** Ethereum Standards & Interoperability.
+**Key Concepts:**
+- **EIP:** Core Protocol Updates (The Engine). Hard Fork required.
+- **ERC:** Application Standards (The USB port). No Fork required.
+- **ERC-20:** The standard for Fungible Tokens.
+- **Interface:** If you change function names (e.g, `transfer` -> `giveMoney`) you break composability (MetaMask/Uniswap will not work).
+- **Validity:** You can deploy non-standard code, but it will be isolated from the ecosystem.
+
+
 
