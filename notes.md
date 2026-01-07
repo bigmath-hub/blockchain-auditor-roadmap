@@ -189,3 +189,12 @@
 	- *Pending:* In Mempool.
 	- *Confirmed:* In a Block.
 	- *finalized:* Irreversible (2 Epochs)
+## Part 2: Account Abstraction (EIP-4337)
+**Topic:** Smart Wallets
+**Key Concepts:**
+- **The Problem:** EOAs (Metamask) are dumb and risky (Loss of keys = Loss of funds).
+- **The Solution:** Smart Contracts Wallets (Programmable security).
+- **The Mechanism:** UserInt -> Bundler -(Relayer) -> EntryPoint Contract -> Wallet.
+- **Paymasters:** Allowing apps to pay gas for users (Gasless transactions).
+- **Bunder Risk:** If the UserOp reverts, the Bundler pays the gas. Strict validation rules exist to prevent "Griefing Attacks".
+

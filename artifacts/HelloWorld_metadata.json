@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "novoTexto",
+						"type": "string"
+					}
+				],
+				"name": "mudarTexto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "texto",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"01-solidity-basics/helloWorld.sol": "HelloWorld"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"01-solidity-basics/helloWorld.sol": {
+			"keccak256": "0x53bbf3df929e7639c7b052bbb51d6a05da019a2a3b4b249879dbf6d4c3d406eb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://74b0cac08597e85fbaaadc8420b6d26a78f9a4579d1b8fef66d4c13c05c60eab",
+				"dweb:/ipfs/QmP7xDpUML17PzrUc7ytwQ6K18wmt61s7q7Sh45o4bkAHs"
+			]
+		}
+	},
+	"version": 1
+}
