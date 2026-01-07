@@ -180,5 +180,12 @@
 - **Units:** `1 Gwei = 10^-9 ETH`.
 - **Refund Logic:** If you set a high `Max Fee Cap`, the unused budget (`Max - Actual`) is returned to the wallet.
 
-
-
+## [2026-01-07] Week 3, Day 2: Transaction Lifecycle
+**Topic:** From Sign to Finality
+**Key Concepts:**
+- **The Journey:** Create -> Sign -> RPC -> Mempool -> Block -> Attestation -> Finality.
+- **Mempool Eviction:** If the mempool is full, low-fee transactions are **Dropped** (deleted).
+- **Status:**
+	- *Pending:* In Mempool.
+	- *Confirmed:* In a Block.
+	- *finalized:* Irreversible (2 Epochs)
