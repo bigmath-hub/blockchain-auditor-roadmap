@@ -198,3 +198,11 @@
 - **Paymasters:** Allowing apps to pay gas for users (Gasless transactions).
 - **Bunder Risk:** If the UserOp reverts, the Bundler pays the gas. Strict validation rules exist to prevent "Griefing Attacks".
 
+## [2026-01-12] Week 3, Day 3: Advanced Architecture (EIP-7702)
+**Topic:** Temporary Smart Wallets.
+**Key Concepts:**
+- **The Problem:** Migrating users from EOA to Smart Wallets is hard (New Address).
+- **The Solution (EIP-7702):** Delegation. An EOA can temporarily "borrow" smart contract logic for one transaction.
+- **Transaction Type 4:** The new vehicle for these delegated transactions.
+- **Security Risk:** If you delegate to a malicious contract, it can drain your wallet.
+- **Mitigation:** Wallets like MetaMask only allow delegation to verified, safe contracts (Hardcoded whitelist).
