@@ -206,3 +206,13 @@
 - **Transaction Type 4:** The new vehicle for these delegated transactions.
 - **Security Risk:** If you delegate to a malicious contract, it can drain your wallet.
 - **Mitigation:** Wallets like MetaMask only allow delegation to verified, safe contracts (Hardcoded whitelist).
+## Part 2: Architecture Quiz Review
+**Score:** 10/10.
+**Confirmed Knowledge:**
+- **Replay Attacks:** Prevent by Chain ID.
+- **Gas Limit:** Refund mechanism for unused gas.
+- **Hard Forks:** The DAO Hack caused the ETH/ETC split.
+- **Standards:** ERCs are a subset of EIPs (App Layer).
+- **Units:** Gas prices are discusses in **Gwei**.
+- **Social Recovery:** Removes the single point of failure (Seed Phrase) using trusted guardians.
+
