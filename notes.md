@@ -216,3 +216,13 @@
 - **Units:** Gas prices are discusses in **Gwei**.
 - **Social Recovery:** Removes the single point of failure (Seed Phrase) using trusted guardians.
 
+## [2026-02-26] Section 4: Applications (Return from Break)
+**Topic:** From Theory to Real-World Engineering.
+**Status:** Resumed training.
+**Roadmap;**
+- **DeFi:** Financial Engineering on-chain.
+- **Tokens (ERC-20):** The currency units.
+- **NFTs (ERC-721):** The Unique assets.
+- **Stablecoins:** Pegged assets (System Control).
+- **DAOs:** Governance structures.
+
