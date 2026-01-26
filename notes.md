@@ -226,3 +226,13 @@
 - **Stablecoins:** Pegged assets (System Control).
 - **DAOs:** Governance structures.
 
+## Part 2: DeFi Fundamentals
+**Topic:** Decentralized Finance & Composability.
+**Key Concepts:**
+- **Money Legos:** Protocols can be build on top of each other (Composability).
+- **The Risk:** If Protocol A fails, Protocol B (which uses A as collateral) also fails. This is **Contagion**.
+- **TradFi vs DeFi:**
+	- *TradFi:* Centralized, Opaque, Permissioned.
+	- *DeFi:* Decentralized, Transparent, Permissionless
+- **Auditor Mindset:** You cannot audit a contract in isolation. You must check its dependencies (External Trust).
+
