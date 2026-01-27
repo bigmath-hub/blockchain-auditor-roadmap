@@ -236,3 +236,12 @@
 	- *DeFi:* Decentralized, Transparent, Permissionless
 - **Auditor Mindset:** You cannot audit a contract in isolation. You must check its dependencies (External Trust).
 
+## [2026-01-27] Week 4, Day 2: Token Taxonomy
+**Topic:** Native Assets vs ERC Standards.
+**Key Concepts:**
+- **Native (EYH):** Baked into the protocol. Requires `payable` functions to receive.
+- **Fungible (ERC-20):** Identical units (like Dollar bills). Requires `approve()` before transfer.
+- **Non-Fungible (ERC-721):** Unique units (ID #1 != ID #2). Used for Art, Real State.
+- **WETH (Wrapped ETH):** A smart contract that makes ETH behave like an ERC-20 token so it can be used in DeFi apps (like Uniswap).
+- **RWA (Real World Assets):** Tokenizing physical assets (Gold, Bonds) to trade on-chain.
+
