@@ -245,3 +245,11 @@
 - **WETH (Wrapped ETH):** A smart contract that makes ETH behave like an ERC-20 token so it can be used in DeFi apps (like Uniswap).
 - **RWA (Real World Assets):** Tokenizing physical assets (Gold, Bonds) to trade on-chain.
 
+## [2026-02-04] Week 4, Day 3: Market Infrastructure
+**Topic:** CEX vs DEX and AMM Mechanics
+**Key Concepts:**
+- **CEX (Binance):** Database-based. Counterparty risk (Not your keys). Good for Fiat On-Ramp.
+- **DEX (Uniswap):** Smart Contract-based. Self-custody. Good for permissionless trading.
+- **AMM (Automated Market Maker):** Uses `x * y = k` to price assets based on suply/demand.
+- **Slippage:** The price impact of a trade. Buying a large % of the pool causes exponential price increases.
+
